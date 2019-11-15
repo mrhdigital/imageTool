@@ -4,4 +4,12 @@ function handleUpdate() {
     console.log(this.value);
 }
 //handleUpdate();
-inputs.forEach(input => input.addEventListener('change', handleUpdate));
+//code without arrow function:
+inputs.forEach(myFunction);
+
+function myFunction(input){
+    input.addEventListener('change',handleUpdate);
+    }
+
+// code with arrow function
+// inputs.forEach(input => input.addEventListener('change', handleUpdate));
