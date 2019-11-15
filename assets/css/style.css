@@ -1,4 +1,4 @@
-body,html {
+html1 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
     margin: 0;
@@ -33,6 +33,25 @@ img{
     background: var(--base);
     filter: blur(var(--blur));
 }
-.h1 {
+.hl {
     color: var(--base);
+    /* color: red; */
+
 }
+
+section {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+.controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
