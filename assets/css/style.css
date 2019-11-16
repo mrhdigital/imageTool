@@ -47,6 +47,13 @@ img{
 
 }
 
+.hl1 {
+    color: var(--base1);
+    /* color: red; */
+
+}
+
+
 section {
     justify-content: center;
     flex:1;
@@ -59,7 +66,7 @@ section {
     font-size: 50px;
   }
 
-.controls {
+.controls .controls1 {
     margin-bottom: 50px;
   }
 
