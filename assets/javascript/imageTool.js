@@ -18,3 +18,15 @@ function handleUpdate() {
 // code with arrow function
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
 inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+const inputs1 = document.querySelectorAll(".controls1 input");
+function handleUpdate1() {
+    //console.log(this.value);
+    const suffix1 = this.dataset.sizing || '';
+    console.log(this.name);
+    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix1);
+}
+
+// code with arrow function
+inputs1.forEach(input => input.addEventListener('change', handleUpdate1));
+inputs1.forEach(input => input.addEventListener('mousemove', handleUpdate1));

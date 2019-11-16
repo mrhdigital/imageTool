@@ -26,12 +26,20 @@ html1 {
  --base: #ffc600;
  --spacing: 10px;
  --blur: 10px;
+ --base1: #ff4800;
+ --spacing1: 10px;
+ --blur1: 10px;
 }
 
 img{
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
+}
+.img1{
+    padding: var(--spacing1);
+    background: var(--base1);
+    filter: blur(var(--blur1));
 }
 .hl {
     color: var(--base);
